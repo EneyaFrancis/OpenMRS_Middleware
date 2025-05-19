@@ -50,4 +50,15 @@ group :development, :test do
 
   # redis server
   gem 'redis'
+
+  # For JWT validation
+  gem 'jwt'
+
+  # For API requests
+  gem 'faraday'
+  gem 'faraday-retry'
+
+  # For logging
+  gem 'lograge'
+
 end
